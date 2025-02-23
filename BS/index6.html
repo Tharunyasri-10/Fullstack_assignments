@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="validationForm" novalidate>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <div class="input-wrapper">
+                    <input type="text" id="name" required>
+                    <span class="error-icon">ⓘ</span>
+                </div>
+                <span class="error-message">Name is required</span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <div class="input-wrapper">
+                    <input type="email" id="email" required>
+                    <span class="error-icon">ⓘ</span>
+                </div>
+                <span class="error-message">Email is required</span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="input-wrapper">
+                    <input type="password" id="password" required>
+                    <span class="error-icon">ⓘ</span>
+                </div>
+                <span class="error-message">Password is required</span>
+            </div>
+
+            <div class="form-group">
+                <label for="hobbies">Hobbies</label>
+                <select id="hobbies">
+                    <option value="">Select a hobby</option>
+                    <option value="reading">Reading</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="sports">Sports</option>
+                    <option value="music">Music</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
