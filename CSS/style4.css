@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove default body margins */
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%; /* Full-height side navigation */
+    width: 60px; /* Adjust width as needed */
+    position: fixed; /* Fixed position */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0; /* Go to the left edge */
+    background-color: #111; /* Black background */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; /* Add top padding */
+}
+
+.sidenav a {
+    height: 60px; /* Set height for square buttons */
+    width: 60px; /* Set width for square buttons */
+    margin-bottom: 10px; /* Add space between buttons */
+    display: block; /* Make each <a> a block element */
+    transition: width 0.5s ease; /* Smooth width transition */
+}
+
+.sidenav a:hover {
+    width: 200px; /* Expand width on hover */
+    text-decoration: none;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.gray {
+    background-color: gray;
+}

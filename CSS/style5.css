@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cc0;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 150px;
+    float: left;
+    padding: 10px;
+}
+
+.menu-item {
+    display: block;
+    width: 120px;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    border-left: 10px solid black;
+    text-align: left;
+}
+
+.menu-item:hover {
+    background-color: #ddd;
+}
+
+.content {
+    margin-left: 180px;
+    padding: 20px;
+}
+
+h1 {
+    color: purple;
+}
+
+hr {
+    border: 1px dashed black;
+    width: 100%;
+}
+
+em {
+    font-style: italic;
+}

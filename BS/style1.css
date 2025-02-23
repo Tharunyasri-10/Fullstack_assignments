@@ -1,0 +1,45 @@
+/* Navigation styles */
+.navbar {
+    background-color: #808080;
+}
+
+.navbar-brand, 
+.nav-link {
+    color: white !important;
+}
+
+/* Header styles */
+.header {
+    background-color: #87CEEB;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Content area styles */
+.content-area {
+    min-height: 500px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #6c757d;
+    min-height: 250px;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        padding: 10px 0;
+    }
+    
+    .content-area,
+    .sidebar {
+        min-height: 300px;
+    }
+}
+

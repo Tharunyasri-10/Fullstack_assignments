@@ -1,0 +1,38 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background-color: #B5E2E0;  
+    border: 2px solid white;   
+}
+
+th {
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+}
+
+td {
+    border-radius: 15px;        
+}
+
+/* Optional: Add some hover effect */
+tr:hover td {
+    background-color: #9CD3D0;  /* Slightly darker shade on hover */
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}

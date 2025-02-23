@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #212529;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a {
+    color: #6c757d;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.sign-up {
+    color: #007bff !important;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+}
+
+/* Pricing Section */
+.pricing-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.subtext {
+    text-align: center;
+    color: #6c757d;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+}
+
+/* Pricing Cards */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.pricing-card {
+    flex: 1;
+    max-width: 300px;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.pricing-card h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    margin-bottom: 1.5rem;
+}
+
+.amount {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.period {
+    color: #6c757d;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-card li {
+    color: #6c757d;
+    margin-bottom: 0.25rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn-outline {
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid #007bff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/* Footer */
+footer {
+    padding-top: 3rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.logo-box {
+    width: 24px;
+    height: 24px;
+    background-color: #563d7c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.footer-col h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-col a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+small {
+    color: #6c757d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
