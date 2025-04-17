@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#train {
+    position: relative;
+    left: 0;
+    transition: left 0.1s linear;
+}
+
+.buttons {
+    margin-top: 20px;
+}

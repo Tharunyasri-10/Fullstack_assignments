@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label>First Name:</label>
+                <input type="text" id="firstName">
+                <span class="error">POOR</span>
+            </div>
+            
+            <div class="form-group">
+                <label>Last Name:</label>
+                <input type="text" id="lastName">
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" id="email">
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="password">
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>Re-enter Password:</label>
+                <input type="password" id="confirmPassword">
+                <span class="error">POOR OR MISMATCH</span>
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </div>
+
+            <div class="form-group">
+                <label>Age:</label>
+                <input type="number" id="age">
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number:</label>
+                <input type="tel" id="phone">
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>Address:</label>
+                <textarea id="address"></textarea>
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>State:</label>
+                <input type="text" id="state">
+                <span class="error">POOR</span>
+            </div>
+
+            <div class="form-group">
+                <label>Country:</label>
+                <select id="country">
+                    <option>Choose your country</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Languages Known:</label>
+                <input type="checkbox"> English
+                <input type="checkbox"> Kannada
+                <input type="checkbox"> Hindi
+                <input type="checkbox"> Telugu
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox"> I hereby declare all the given details are true
+            </div>
+
+            <div class="form-group">
+                <button type="submit">REGISTER</button>
+            </div>
+
+            <div class="form-group">
+                <p>Log in to <a href="#">Eshmus</a> website</p>
+            </div>
+        </form>
+    </div>
+    <script src="script8.js"></script>
+</body>
+</html>
